@@ -1,0 +1,380 @@
+@font-face {
+    font-family: poppinsfont;
+    src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: interfont;
+    src: url("../fonts/Inter-Bold.ttf");
+}
+@font-face {
+    font-family: intermedium;
+    src: url("../fonts/Inter-Medium.ttf");
+}
+@font-face {
+    font-family: mediumfont;
+    src: url('../font/Poppins-Medium.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+
+}
+
+.top_header{
+    background: #000000;
+    display: flex;
+    align-items: center;
+    padding: 10px 20%;  
+}
+
+.header1 p{
+    color: #FAFAFA;
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px;
+}
+.header2 p {
+    color: #FAFAFA;
+    font-family: poppinsfont;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px; 
+}
+.header3 p{
+    color: #FAFAFA;
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px 70%;
+    margin-left: 90px;
+}
+.header4 h1{
+    font-family: interfont;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 30px 5%;
+}
+.ulheader{
+    padding: 10px;
+}
+
+.ulheader ul li{
+    display: inline-block;
+    padding: 1.5rem;
+
+}
+.ulheader ul li a{
+    text-decoration: none;
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    transition: all .42s ease;
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-family:poppinsfont;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.btn_header{
+    padding: 5px 3%;
+    margin: 30px;
+    background: #F5F5F5;
+    border-radius: 4px;
+}
+.icon_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px  3%;
+}
+
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+.hr_header{
+    border: 0.5px solid #000000;
+}
+.a_div{
+    padding: 70px 10%;
+}
+.a_div a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #000000;
+    font-family:poppinsfont;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+.a_checkout a{
+    color: #000000;
+}
+/* End header */
+/* start checkout */
+.checkout1 h1{
+    font-family: intermedium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    padding: 30px 5%;
+    letter-spacing: 0.04em;
+}
+.checkout_form{
+   padding: 10px 5%;
+}
+
+label{
+    font-family: poppinsfont;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.4;
+}
+input{
+    background: #F5F5F5;
+    border-radius: 4px;   
+    width: 470px;
+    height: 50px;
+    border: none;
+}
+.all_checkout{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 3%;
+}
+.checkout2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.check1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 224px;
+    width: 430px;
+    height: 54px;
+}
+.check1 p{
+    font-family: pofont;
+    width: 96px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.check2{
+    display: flex;
+   padding: 20px;
+
+}
+.check2 p{
+    font-family: pofont;
+    width: 96px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.check2 img{
+    height: 42px;
+    width: 48px;
+}
+.check3{
+    width: 41px;
+    height: 24px;
+    font-family: pofont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.check4{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 307px;
+}
+.check4 p{
+    font-family: pofont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.check5_input{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.check5_img{
+    padding: 20px;
+    margin: 10px;
+}
+.check6{
+    box-sizing: border-box;
+    width: 270px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.check6 p{
+    font-family: myfont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+    padding: 10px;
+}
+.check7 button{
+    padding: 12px 40px;
+    background: #DB4444;
+    border-radius: 4px;
+    border: none;
+    color: #FAFAFA;
+    font-family: popinsmed;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+}
+.check7 {
+    display: flex;
+}
+.check8 button{
+    padding: 12px 40px;
+    background: #DB4444;
+    border-radius: 4px;
+    border: none;
+    color: #FAFAFA;
+    font-family: popinsmed;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+}
+hr{
+    width: 300px;
+    border: 1px solid #000000;
+   margin-left: 20px;
+}
+
+
+/* start footer */
+footer{
+    height: 60vh;
+    background-color: #000000;
+    color: #FAFAFA;
+    padding: 80px 0;
+  
+}
+
+.container{
+    max-width: 1440px;
+    padding: 4px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer_col{
+    width: 36%;
+    padding: 1px 40px;
+
+}
+
+.footer_col h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer_p2{
+    font-family: mediumfont;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;  
+
+}
+.footer_p3{
+    font-family: mediumfont;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 24px;  
+}
+
+.footer_col h3{
+    font-family: mediumfont;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;  
+    margin-bottom: 25px;  
+}
+.footer_p4{
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+}
+.footer_p5{
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+}
+.footer_p6{
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 24px;
+    margin: 18px;
+}
+.main_img{
+    display: flex;
+}
+.footer_p7{
+    font-family: poppinsfont;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 18px;
+    padding: 30px;
+    text-align: center;
+    opacity: 0.4;
+}
+.icon-footer{
+    margin: 20px 10%;
+    padding: 20px;
+    justify-content: space-between;
+}
+/* End footer */

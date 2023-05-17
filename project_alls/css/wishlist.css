@@ -1,0 +1,39 @@
+*{
+    padding: 2px 2%;
+}
+
+.hero2{
+    display: flex;
+    justify-content: space-between;
+}
+.Addtocart{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-around;
+}
+.Addtocart p {
+color: #DB4444 ;
+font-style:Medium ;
+font-size: 16px
+
+}
+span{
+    color: rgb(120, 116, 116);
+}
+.Addtocart h2{
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.small_red{
+display:flex;
+  /* justify-content: space-between; */
+}
+.hero button{
+   align-items: center ;
+    padding: 30px 40px;
+background-color: aliceblue;
+border: 1px solid rgb(71, 70, 70);
+}
